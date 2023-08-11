@@ -12,3 +12,8 @@ def test_is_even_negative():
     actual = is_even(3)
 
     assert expected == actual
+
+def test_check_string():
+    input_string = "makan"
+
+    assert input_string == "makan"
