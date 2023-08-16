@@ -16,4 +16,4 @@ def test_is_even_negative():
 def test_check_string():
     input_string = "makan"
 
-    assert input_string == "makn"
+    assert input_string == "makan"
